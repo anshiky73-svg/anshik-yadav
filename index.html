@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshik Yadav — Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">AY<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="status-dot"></span>
+        <span>Open to Internships</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="line" data-text="Anshik">Anshik</span>
+        <span class="line accent-line" data-text="Yadav">Yadav</span>
+      </h1>
+      <p class="hero-title">CS Engineer · Full-Stack · AI/ML</p>
+      <p class="hero-sub">
+        Building intelligent systems from Prayagraj — FastAPI backends, 
+        Next.js frontends, and NLP-powered tools that actually work.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://linkedin.com/in/anshik-yadav77" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/anshiky73-svg" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">/ About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>First-year student,<br><em>full-stack thinker.</em></h2>
+          <p>
+            I'm a Computer Science Engineering student at IERT Prayagraj, 
+            pursuing my B.Tech from 2025–2029. Despite being in my first year, 
+            I've shipped production-grade applications and ranked <strong>46th out of 
+            5000+</strong> contributors in the ECWOC open-source competition.
+          </p>
+          <p>
+            My focus is on building full-stack applications that sit at the 
+            intersection of web engineering and AI — clean APIs, intelligent backends, 
+            and interfaces that feel effortless.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">46</span>
+            <span class="stat-label">Rank / 5000+ contributors</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">41</span>
+            <span class="stat-label">Issues & PRs resolved</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1+</span>
+            <span class="stat-label">Production apps shipped</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2029</span>
+            <span class="stat-label">Expected graduation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">/ Skills</div>
+      <h2 class="section-title">Technical Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-group" data-group="Languages">
+          <div class="skill-group-title">Languages</div>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">C</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group" data-group="Backend">
+          <div class="skill-group-title">Backend & APIs</div>
+          <div class="skill-tags">
+            <span class="tag">FastAPI</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SQLAlchemy</span>
+            <span class="tag">Pydantic</span>
+            <span class="tag">JWT / bcrypt</span>
+          </div>
+        </div>
+        <div class="skill-group" data-group="Frontend">
+          <div class="skill-group-title">Frontend</div>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="skill-group" data-group="AI/ML">
+          <div class="skill-group-title">AI / ML</div>
+          <div class="skill-tags">
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">TF-IDF / NLP</span>
+          </div>
+        </div>
+        <div class="skill-group" data-group="Data">
+          <div class="skill-group-title">Databases</div>
+          <div class="skill-tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-group" data-group="Tools">
+          <div class="skill-group-title">Tools & Platforms</div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Render</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">/ Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-meta">
+            <span class="project-badge">Featured</span>
+            <div class="project-links">
+              <a href="https://resulyser.vercel.app" target="_blank" rel="noopener" class="icon-link" title="Live Demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="https://github.com/anshiky73-svg/Resulyser" target="_blank" rel="noopener" class="icon-link" title="Source Code">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="4" width="36" height="40" rx="4" fill="var(--accent)" opacity="0.12"/>
+              <rect x="12" y="12" width="24" height="3" rx="1.5" fill="var(--accent)"/>
+              <rect x="12" y="18" width="18" height="3" rx="1.5" fill="var(--accent)" opacity="0.6"/>
+              <rect x="12" y="24" width="22" height="3" rx="1.5" fill="var(--accent)" opacity="0.6"/>
+              <rect x="12" y="30" width="14" height="3" rx="1.5" fill="var(--accent)" opacity="0.4"/>
+              <circle cx="36" cy="36" r="8" fill="var(--accent)"/>
+              <path d="M33 36l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>AI Resume Analyzer</h3>
+          <p class="project-desc">
+            An AI-driven platform that extracts skills from PDF resumes, 
+            runs NLP-based TF-IDF matching against job listings, and surfaces 
+            skill gaps with actionable suggestions — all behind secure JWT auth.
+          </p>
+          <ul class="project-highlights">
+            <li>TF-IDF similarity for resume ↔ job matching</li>
+            <li>Skill-gap detection & improvement suggestions</li>
+            <li>JWT auth + PostgreSQL + SQLAlchemy ORM</li>
+            <li>Deployed on Vercel (frontend) & Render (API)</li>
+          </ul>
+          <div class="project-stack">
+            <span>FastAPI</span>
+            <span>Next.js</span>
+            <span>PostgreSQL</span>
+            <span>Scikit-learn</span>
+            <span>NLP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">/ Experience & Certs</div>
+      <h2 class="section-title">Where I've Contributed</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Jan – Feb 2026 · 8 weeks</div>
+            <h3>Open Source Contributor</h3>
+            <p class="timeline-org">Elite Coders Winter Of Code (ECWOC)</p>
+            <ul>
+              <li>Resolved <strong>41 issues and pull requests</strong> across multiple open-source repositories</li>
+              <li>Collaborated with mentors and contributors through code reviews and PR discussions</li>
+              <li>Ranked <strong>46th out of 5000+</strong> participants</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Certification</div>
+            <h3>The Complete Python Developer</h3>
+            <p class="timeline-org">Udemy — Andrei Neagoie</p>
+            <ul>
+              <li>Comprehensive Python covering OOP, async programming, and web frameworks</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2025 – 2029</div>
+            <h3>B.Tech in Computer Science & Engineering</h3>
+            <p class="timeline-org">Institute of Engineering and Rural Technology, Prayagraj</p>
+            <ul>
+              <li>Focused on software engineering, algorithms, and AI/ML foundations</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">/ Contact</div>
+      <div class="contact-block">
+        <h2>Let's build something<br><em>worth shipping.</em></h2>
+        <p>
+          I'm actively looking for software engineering or AI/ML internship opportunities. 
+          If you have a role, a project, or just want to talk tech — reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:anshiky73@email.com" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+            anshiky73@email.com
+          </a>
+          <a href="tel:+919451579363" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5 19.79 19.79 0 01.01 2.82 2 2 0 012 .67h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.37a16 16 0 006.27 6.27l1.17-1.17a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            +91 94515 79363
+          </a>
+          <a href="https://linkedin.com/in/anshik-yadav77" target="_blank" rel="noopener" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            linkedin.com/in/anshik-yadav77
+          </a>
+          <a href="https://github.com/anshiky73-svg" target="_blank" rel="noopener" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            github.com/anshiky73-svg
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="nav-logo">AY<span class="dot">.</span></span>
+        <span class="footer-copy">© 2026 Anshik Yadav · Azamgarh, UP</span>
+        <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
